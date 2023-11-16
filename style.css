@@ -18,10 +18,10 @@ header {
 .s {
     color: blanchedalmond;
     position: absolute;
+    top: 50px;
     left: 50px;
     right: 50px;
 }
-
 h1 {
     color: blanchedalmond;
     top:110px;
