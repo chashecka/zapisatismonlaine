@@ -15,7 +15,7 @@ header {
     color: blanchedalmond;
 }
 
-.s {
+.dy {
     color: blanchedalmond;
     padding-left: 200px;
     position: absolute;
@@ -23,17 +23,34 @@ header {
     left: 200px;
 }
 
+h1 {
+    color: blanchedalmond;
+    top:110px;
+    text-align: center;
+}
+
+
 img {
     width: 250px;
     border-radius: 20px;
 }
 
 .w {
-    width: 260px;
+    width: 130px;
     height: 165px;
     border-radius: 20px;
     position: absolute;
     right: 10px;
+    top: 304px;
+    opacity: 0.5;
+}
+
+.w:hover{
+    opacity: 1;
+    border: 6px solid rgb(27, 27, 27);
+    width: 135px;
+    height: 170px;
+    transition: 0.5s ease-out;
 }
 
 p {
@@ -48,33 +65,98 @@ p {
 
 .m {
     position: absolute;
-    left: 50px;
-    top: 490px;
+    left: 30px;
+    top: 460px;
 }
 
 .r{
     position: absolute;
     top: 660px;
-    left: 50px;
 }
 
 .t{
+    width: 130px;
+    height: 165px;
+    border-radius: 20px;
     position: absolute;
     top: 500px;
+    opacity: 0.5;
+}
+
+.t:hover{
+    opacity: 1;
+    border: 6px solid rgb(27, 27, 27);
+    width: 135px;
+    height: 170px;
+    transition: 0.5s ease-out;
+}
+
+.f:hover{
+    opacity: 1;
+    border: 6px solid rgb(27, 27, 27);
+    width: 135px;
+    height: 170px;
+    transition: 0.5s ease-out;
 }
 
 .f{
+    width: 130px;
+    height: 165px;
+    border-radius: 20px;
     position: absolute;
     right: 10px;
     top: 500px;
+    opacity: 0.5;
 }
 
 .p{
-position: absolute;
+    position: absolute;
     top: 660px;
-    left: 750px;
+    right: 20px;
 }
 
+nav{
+
+}
+
+.knock{
+    width: 130px;
+    height: 165px;
+    border-radius: 20px;
+    position: absolute;
+    top: 304px;
+    opacity: 0.5;
+}
+
+.knock:hover{
+    opacity: 1;
+    border: 6px solid rgb(27, 27, 27);
+    width: 135px;
+    height: 170px;
+    transition: 0.5s ease-out;
+}
+
+.never{
+    position: absolute;
+    right:150px;
+}
+
+.by{
+    position: absolute;
+    left: 150px;
+    top: 530px;
+}
+
+.cant{
+    position: absolute;
+    left: 150px;
+}
+
+.wait{
+    position: absolute;
+    right: 150px;
+    top: 530px;
+}
 a{
    color: rgb(255, 255, 255);
    text-decoration: 0;
