@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: black;
+    background-image: linear-gradient(rgb(34, 34, 34),rgb(0, 0, 0));
 }
 
 header {
@@ -33,7 +33,7 @@ img {
     height: 165px;
     border-radius: 20px;
     position: absolute;
-    left: 700px;
+    right: 10px;
     top: 304px;
 }
 
@@ -43,7 +43,7 @@ p {
 
 .h {
     position: absolute;
-    left: 780px;
+    right: 10px;
     top: 460px;
 }
 
@@ -66,7 +66,7 @@ p {
 
 .f{
     position: absolute;
-    left: 700px;
+    right: 10px;
     top: 500px;
 }
 
@@ -74,4 +74,19 @@ p {
 position: absolute;
     top: 660px;
     left: 750px;
+}
+
+a{
+   color: rgb(255, 255, 255);
+   text-decoration: 0;
+}
+
+a:hover{
+   color: rgb(255, 209, 236);
+   text-decoration: 0;
+}
+
+qw{
+    top: 304px;
+    width: 123px;
 }
