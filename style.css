@@ -34,14 +34,6 @@ img {
     border-radius: 20px;
 }
 
-.w {
-    border-radius: 20px;
-    position: absolute;
-    right: 10px;
-    top: 250px;
-    width: 230px;
-}
-
 p {
     color: blanchedalmond;
 }
@@ -67,19 +59,6 @@ p {
     left: 50px;
 }
 
-.t{
-    width: 130px;
-    height: 165px;
-    border-radius: 20px;
-    position: absolute;
-    top: 500px;
-}
-
-.f{
-    position: absolute;
-    left: 700px;
-    top: 500px;
-}
 
 .p{
     position: absolute;
